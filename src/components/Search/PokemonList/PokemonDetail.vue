@@ -6,6 +6,7 @@
                     <div style="position: relative">
                         <v-btn
                             class="btn-float-close"
+                            x-small
                             fab
                             absolute
                             depressed
@@ -13,7 +14,7 @@
                             right
                             @click.stop="show = false"
                         >
-                            <v-icon> mdi-close </v-icon>
+                            <v-icon class="icon-close"> mdi-close </v-icon>
                         </v-btn>
                     </div>
                     <v-row justify="center" class="bg ma-0">
@@ -142,6 +143,12 @@
 
 .btn-float-close {
     top: 16px !important;
+}
+
+i.v-icon.v-icon {
+    color: #88d0f9;
+    font-weight: bold !important;
+    font-size: 26px;
 }
 
 .detail-description {
