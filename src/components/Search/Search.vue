@@ -311,7 +311,9 @@ export default {
             try {
                 this.isLoading = true;
 
-                let data = await PokemonRepository.getPokemon(this.inputSearch);
+                let data = await PokemonRepository.getPokemon(
+                    this.inputSearch.toLowerCase().trim()
+                );
                 this.isLoading = false;
                 this.alertSuccess = true;
                 this.alertError = false;
