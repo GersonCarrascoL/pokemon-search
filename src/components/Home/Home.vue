@@ -4,7 +4,7 @@
             <v-col cols="12">
                 <v-row justify="center">
                     <v-col cols="10" sm="8" md="6" lg="4" xl="3">
-                        <v-img src="../assets/logo.png"></v-img>
+                        <v-img src="../../assets/logo.png"></v-img>
                     </v-col>
                 </v-row>
             </v-col>
@@ -57,9 +57,5 @@
 </style>
 
 <script>
-export default {
-    data: () => ({
-        width: 300,
-    }),
-};
+export default {};
 </script>

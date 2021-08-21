@@ -10,12 +10,12 @@ export default new VueRouter({
         {
             path: '/',
             name: 'home',
-            component: () => import('../components/Home.vue'),
+            component: () => import('../components/Home/Home.vue'),
         },
         {
             path: '/search',
             name: 'search',
-            component: () => import('../components/Search.vue'),
+            component: () => import('../components/Search/Search.vue'),
         },
     ],
 });
