@@ -10,7 +10,7 @@
             </v-col>
             <v-col cols="12" class="mt-12">
                 <v-row justify="center">
-                    <h1 class="home-title">Welcome to Pokedex</h1>
+                    <h1 class="home-title">{{ title }}</h1>
                 </v-row>
             </v-col>
             <v-col cols="12" class="mt-5">
@@ -35,7 +35,7 @@
     </v-container>
 </template>
 
-<style>
+<style scoped>
 .home-title {
     font-size: 26px;
     line-height: 31px;
@@ -57,5 +57,11 @@
 </style>
 
 <script>
-export default {};
+export default {
+    data() {
+        return {
+            title: process.env.VUE_APP_TITLE,
+        };
+    },
+};
 </script>

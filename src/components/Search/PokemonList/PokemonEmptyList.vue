@@ -26,6 +26,7 @@
     line-height: 30px;
     letter-spacing: 0em;
 }
+
 .v-btn.v-btn--has-bg {
     background-color: #f22539 !important;
     border-radius: 60px;
@@ -35,6 +36,6 @@
 
 <script>
 export default {
-    name: "EmptyList",
+    name: "PokemonEmptyList",
 };
 </script>

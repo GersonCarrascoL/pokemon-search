@@ -33,6 +33,7 @@ export default {
     right: 0;
     text-align: center;
     top: 0;
+    z-index: 1000;
 }
 
 @keyframes rotating {

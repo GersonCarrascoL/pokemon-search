@@ -14,6 +14,9 @@ body {
 #app {
     font-family: "Lato", sans-serif;
 }
+* {
+    text-transform: none !important;
+}
 </style>
 
 <script>
