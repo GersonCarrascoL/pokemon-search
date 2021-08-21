@@ -143,9 +143,6 @@
 
 .btn-float-close {
     top: 16px !important;
-}
-
-i.v-icon.v-icon {
     color: #88d0f9;
     font-weight: bold !important;
     font-size: 26px;
