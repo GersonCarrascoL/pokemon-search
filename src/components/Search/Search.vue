@@ -329,7 +329,6 @@ export default {
                     this.successMessage = "Nothing found";
                     this.pokemonList = [];
                 }
-                console.log(this.pokemonList);
                 setTimeout(() => {
                     this.alertSuccess = false;
                 }, 2000);
