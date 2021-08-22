@@ -154,6 +154,8 @@
     width: 100%;
     border-radius: 60px;
     color: white;
+    font-size: 18px;
+    height: 44px !important;
 }
 
 .btn-select {

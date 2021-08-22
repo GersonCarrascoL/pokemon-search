@@ -127,6 +127,7 @@
 .btn-fav {
     color: #bfbfbf !important;
     background: #f5f5f5 !important;
+    pointer-events: none;
 }
 
 .btn-fav-selected {
@@ -157,7 +158,6 @@
 }
 
 .btn-share {
-    font-weight: 700;
     background-color: #f22539 !important;
     border-radius: 60px;
     color: white;

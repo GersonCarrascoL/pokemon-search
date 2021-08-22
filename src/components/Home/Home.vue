@@ -26,7 +26,11 @@
             </v-col>
             <v-col cols="12" class="mt-8">
                 <v-row justify="center">
-                    <v-btn class="white--text" elevation="2" raised to="/search"
+                    <v-btn
+                        class="white--text init-btn"
+                        elevation="2"
+                        raised
+                        to="/search"
                         >Get Started</v-btn
                     >
                 </v-row>
@@ -53,6 +57,8 @@
     background-color: #f22539 !important;
     border-radius: 60px;
     color: white;
+    font-size: 18px;
+    padding: 11px 20px !important;
 }
 </style>
 
