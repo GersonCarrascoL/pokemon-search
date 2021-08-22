@@ -92,7 +92,7 @@
                             class="mx-2"
                             fab
                             dark
-                            x-small
+                            small
                             elevation="0"
                             :class="[
                                 {
@@ -101,7 +101,7 @@
                                 'btn-fav',
                             ]"
                         >
-                            <v-icon dark> mdi-star </v-icon>
+                            <v-icon dark size="26"> mdi-star </v-icon>
                         </v-btn>
                     </v-card-actions>
                 </v-card>

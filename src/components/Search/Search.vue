@@ -72,7 +72,7 @@
                                             class="mx-2"
                                             fab
                                             dark
-                                            x-small
+                                            small
                                             elevation="0"
                                             :class="[
                                                 {
@@ -85,7 +85,9 @@
                                                 changeFavorite(pokemon, $event)
                                             "
                                         >
-                                            <v-icon dark> mdi-star </v-icon>
+                                            <v-icon dark size="26">
+                                                mdi-star
+                                            </v-icon>
                                         </v-btn>
                                     </v-col>
                                 </v-row>
@@ -110,7 +112,7 @@
                             ]"
                             @click="changeSelected('all')"
                         >
-                            <v-icon left dark>
+                            <v-icon left dark size="22">
                                 mdi-format-list-bulleted
                             </v-icon>
                             All
@@ -124,7 +126,7 @@
                             ]"
                             @click="changeSelected('fav')"
                         >
-                            <v-icon left dark> mdi-star </v-icon>
+                            <v-icon left dark size="22"> mdi-star </v-icon>
                             Favorites
                         </v-btn>
                     </v-col>
